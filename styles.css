@@ -1,0 +1,37 @@
+body {
+    background-color: #f8f9fa; /* color claro de fondo */
+}
+
+.card-deck {
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #ffffff; /* blanco */
+    color: #343a40; /* gris oscuro */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* sombra más sutil */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 1px solid #dee2e6; /* borde gris claro */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 123, 255, 0.25); /* sombra azul */
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff; /* azul de Bootstrap */
+}
+
+.card-text {
+    font-size: 18px;
+    color: #6c757d; /* gris oscuro de Bootstrap */
+}
+
+.card-body {
+    text-align: center; /* Centra todo el contenido dentro del card-body */
+}
+
